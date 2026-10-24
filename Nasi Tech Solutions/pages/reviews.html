@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Reviews | Nasi Tech Solutions</title>
+    <!-- Connects to your stylesheet -->
+    <link rel="stylesheet" href="../style.css/style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="logo">
+            <h2>Nasi Tech Solutions</h2>
+        </div>
+        <nav>
+            <a href="../index/index.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="contact us.html">Contact Us</a>
+            <a href="reviews.html" class="active">Reviews</a>
+        </nav>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="hero">
+        <div class="hero-overlay">
+            <div class="hero-text">
+                <h1>What Our Clients Say</h1>
+                <p>Read honest reviews from our valued clients and connect with us on social media.</p>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80" alt="Client Satisfaction and Reviews">
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Instagram Business Banner -->
+        <section class="content-section instagram-box">
+            <div class="insta-content">
+                <h2>Follow Us On Instagram</h2>
+                <p>Check out our latest projects, behind-the-scenes content, and tech updates on Instagram!</p>
+                <a href="https://www.instagram.com/goenergyza" target="_blank" rel="noopener noreferrer" class="btn insta-btn">
+                    Follow @goenergyza
+                </a>
+            </div>
+        </section>
+
+        <!-- Reviews Grid Section -->
+        <section class="content-section">
+            <h2>Client Testimonials</h2>
+            <div class="services-grid">
+                
+                <div class="service-card review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Nasi Tech Solutions transformed our online presence. Their web development team delivered a slick, modern site that our customers love!"</p>
+                    <h4 style="margin-top: 1rem; color: #002b49;">— Thabo M.</h4>
+                    <span style="font-size: 0.85rem; color: #777;">Business Owner</span>
+                </div>
+
+                <div class="service-card review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Fast, reliable IT support! When our office network crashed, their technicians resolved the issue in under two hours. Highly recommended."</p>
+                    <h4 style="margin-top: 1rem; color: #002b49;">— Sarah K.</h4>
+                    <span style="font-size: 0.85rem; color: #777;">Operations Manager</span>
+                </div>
+
+                <div class="service-card review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Great consultation service. They helped us choose the right cloud software for our growing team without overspending."</p>
+                    <h4 style="margin-top: 1rem; color: #002b49;">— David P.</h4>
+                    <span style="font-size: 0.85rem; color: #777;">Startup Founder</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Leave a Review Form -->
+        <section class="content-section">
+            <h2>Leave a Review</h2>
+            <p>We value your feedback! Share your experience working with Nasi Tech Solutions.</p>
+
+            <form class="contact-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="review-name">Your Name</label>
+                    <input type="text" id="review-name" name="name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="rating">Rating</label>
+                    <select id="rating" name="rating" style="padding: 0.85rem 1rem; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 1rem; background-color: #f8fafc;" required>
+                        <option value="5">★★★★★ (5 Stars - Excellent)</option>
+                        <option value="4">★★★★☆ (4 Stars - Very Good)</option>
+                        <option value="3">★★★☆☆ (3 Stars - Average)</option>
+                        <option value="2">★★☆☆☆ (2 Stars - Poor)</option>
+                        <option value="1">★☆☆☆☆ (1 Star - Terrible)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="review-text">Your Review</label>
+                    <textarea id="review-text" name="review" rows="4" placeholder="Write your review here..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn">Submit Review</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Nasi Tech Solutions. All rights reserved. | Connect on IG: <a href="https://www.instagram.com/goenergyza" target="_blank" style="color: #00a8ff; text-decoration: none;">@goenergyza</a></p>
+    </footer>
+
+    <script src="../javascript.js/main.js"></script>
+</body>
+</html>
